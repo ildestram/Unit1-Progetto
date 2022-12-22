@@ -10,7 +10,7 @@ header {
     justify-content: space-around;
     flex-direction: row;
     background-color: #fff;
-    /* box-shadow: 2px 10px 5px lightgray; */
+    box-shadow: 2px 10px 5px lightgray;
     position: sticky;
     top: 0;
     z-index: 2;
@@ -70,7 +70,7 @@ ul li {
 }
 
 .main, .sidebar {
-    border: 3px solid black;
+    /* border: 3px solid black; */
     padding: 15px;
     background-color: #fff;
 }
@@ -81,7 +81,7 @@ ul li {
 }
 
 .sidebar {
-    width: 25%;
+    width: 35%;
     height: 70vh;
     position: sticky;
     top: 0;
@@ -135,4 +135,24 @@ ul li {
 .first-blog-section p img {
     width: 25px;
     border-radius: 20px;
+}
+
+.sidebar div {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.paragraph-flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.paragraph-flex a {
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+    color: gray;
+    border: 1px solid black;
+    border-radius: 10px;
 }
