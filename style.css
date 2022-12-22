@@ -77,7 +77,7 @@ ul li {
 
 .main {
     width: 60%;
-    height: 200vh;
+    height: 250vh;
 }
 
 .sidebar {
@@ -137,6 +137,11 @@ ul li {
     border-radius: 20px;
 }
 
+.text-para {
+    font-size: 13px;
+    font-weight: 600;
+}
+
 .sidebar div {
     padding-top: 50px;
     text-align: center;
@@ -146,6 +151,8 @@ ul li {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    border-bottom: 1px solid black;
+    padding-bottom: 50px;
 }
 
 .paragraph-flex a {
@@ -155,4 +162,17 @@ ul li {
     color: gray;
     border: 1px solid black;
     border-radius: 10px;
+}
+
+.aside-flex {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.aside-flex a {
+    padding: 10px;
+    text-decoration: none;
+    color: gray;
+    font-size: 13px;
 }
