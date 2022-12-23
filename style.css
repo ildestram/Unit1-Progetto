@@ -77,12 +77,12 @@ ul li {
 
 .main {
     width: 60%;
-    height: 250vh;
+    /* height: 250vh; */
 }
 
 .sidebar {
     width: 35%;
-    height: 70vh;
+    height: 100vh;
     position: sticky;
     top: 0;
 }
