@@ -112,6 +112,7 @@ ul li {
 
 .div-image img {
     width: 190px;
+    cursor: pointer;
 }
 
 .blog-wrapper {
@@ -190,3 +191,11 @@ ul li {
     color: gray;
     font-size: 13px;
 }
+
+.aside-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
