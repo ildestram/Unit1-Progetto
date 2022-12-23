@@ -198,4 +198,24 @@ ul li {
     flex-wrap: wrap;
 }
 
+.par-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.par-icons a i {
+    padding: 10px;
+    text-decoration: none;
+}
+
+.fa-medium {
+    font-size: 25px;
+    color: black;
+}
+
+.fa-twitter {
+    font-size: 25px;
+    color: lightskyblue;
+}
+
 
