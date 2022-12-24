@@ -29,6 +29,42 @@ header {
     padding-left: 20px;
 }
 
+.elements {
+    padding-top: 100px;
+}
+
+.elements div:nth-child(1) {
+    margin-bottom: 20px;
+    font-size: 50px;
+    padding-left: 20vh;
+}
+
+.elements div:nth-child(2) {
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 20vh;
+}
+
+.elements div:nth-child(3) {
+    margin-top: 40px;
+    padding-left: 20vh;
+}
+
+button {
+    padding: 20px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
 ul li {
     display: inline-block;
     padding: 15px;
