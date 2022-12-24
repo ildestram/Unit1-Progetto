@@ -16,6 +16,14 @@ header {
     z-index: 2;
 }
 
+.navbar {
+    background-color: orange;
+}
+
+.bgColor {
+    background-color: white;
+}
+
 .logo img {
     width: 200px;
     padding-left: 20px;
@@ -217,5 +225,34 @@ ul li {
     font-size: 25px;
     color: lightskyblue;
 }
+
+.icon-flex-aside {
+    display: flex;
+    justify-content: center;
+}
+
+.button-twitter {
+    display: flex;
+    justify-content: center;
+}
+
+.para-aside > p {
+    font-weight: 500;
+}
+
+.fa-medium, .fa-plus, .fa-twitter {
+    font-size: 20px;
+    padding: 5px;
+}
+
+nav {
+    background-color: orange;
+    height: 60vh;
+    width: 100%;
+}
+
+
+
+
 
 
