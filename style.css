@@ -223,6 +223,12 @@ ul li {
     border-radius: 10px;
 }
 
+.paragraph-flex a:hover, .paragraph-flex a:focus {
+    background-color: rgb(236, 174, 58);
+    font-weight: 600;
+    color: white;
+}
+
 .aside-flex {
     display: flex;
     justify-content: flex-start;
