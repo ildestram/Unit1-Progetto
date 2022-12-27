@@ -1,3 +1,4 @@
+/* applico questo tipo di reset ad ogni progetto che faccio */
 * {
     margin: 0;
     padding: 0;
@@ -5,6 +6,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+/* applico flex a tutto l'header affinchè la barra di navigazione venga tutta su una linea */
 header {
     display: flex;
     justify-content: space-around;
@@ -16,10 +18,14 @@ header {
     z-index: 2;
 }
 
+/* questo mi serve per javascript */
 .navbar {
     background-color: orange;
 }
 
+/* questa è una classe che ho creato solo nel css
+non esiste nell'html
+perchè mi serve solo per il codice javascript */
 .bgColor {
     background-color: white;
 }
@@ -33,6 +39,7 @@ header {
     padding-top: 100px;
 }
 
+/* uso gli pseudo elementi per scrivere meno codice */
 .elements div:nth-child(1) {
     margin-bottom: 20px;
     font-size: 50px;
@@ -60,6 +67,7 @@ button {
     cursor: pointer;
 }
 
+/* applico un effetto nel momento in cui l'utente passa sul bottone con il mouse */
 button:hover {
     background-color: #fff;
     color: #000;
@@ -108,10 +116,12 @@ ul li {
     color: gray;
 }
 
+/* applico un primo display flex a tutto il wrapper che contiene sia la parte sinistra che la parte destra del grande div */
 .wrapper {
     display: flex;
     justify-content: space-between;
 }
+
 
 .main, .sidebar {
     /* border: 3px solid black; */
@@ -119,6 +129,7 @@ ul li {
     background-color: #fff;
 }
 
+/* applico percentuali perchè ho notato che in questo modo il risultato grafico è maggiormente responsive */
 .main {
     width: 60%;
     /* height: 250vh; */
@@ -223,6 +234,8 @@ ul li {
     border-radius: 10px;
 }
 
+/* in questo modo nel momento in cui l'utente passa e clicca sui link a destra
+verrà lo sfondo arancione e il colore del font bianco */
 .paragraph-flex a:hover, .paragraph-flex a:focus {
     background-color: rgb(236, 174, 58);
     font-weight: 600;

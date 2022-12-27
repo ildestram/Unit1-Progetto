@@ -18,6 +18,10 @@
     />
   </head>
   <body>
+    <!-- vado a scrivere la prima parte del codice = l'header, cioè la parte iniziale del sito
+    all'header attribuisco sia una class (mi serve essenzialmente per il css) sia un id (che uso in javascript)
+    all'interno dell'header poi vado ad inserire un primo div dove racchiudo il logo del sito
+    successivamente decido di inserire la barra di navigazione all'interno di una lista non ordinata (affinchè nel css uso solamente inline-block per metterli sulla stessa riga)  -->
     <header id="navbar" class="navbar">
       <div class="logo">
         <img src="./assets/Medium_(website)-Logo.wine.png" alt="logo-medium" />
@@ -31,6 +35,8 @@
       </ul>
     </header>
 
+    <!-- subito dopo l'header inserisco la parte nav 
+    creo un unico div all'interno del quale inserisco più div a seconda dei paragrafi che devo aggiungere -->
     <nav>
       <div class="elements">
         <div>
@@ -43,9 +49,15 @@
           <button>Start reading</button>
         </div>
       </div>
-
     </nav>
 
+    <!-- creo la parte dei post
+    inizialmente creo un primo div che chiamo wrapper in cui vado ad intersecare altri div
+    creo un unico div dove inserisco i due h3 (non uso h1 o h2 perchè dal mockup non mi sembra adatto)
+    ho deciso di creare tanti div all'interno dei quali inserisco i vari p, span etc perchè mi sono resa conto di trovarmi molto meglio
+    mi sembra tutto più pulito a livello di sintassi (non so poi se sia così realmente o meno)
+  
+    una volta creato il primo div con class first-blog-section poi sono andata semplicemente a copiare e incollarli per nove volte-->
     <div class="wrapper">
       <div class="main">
         <div class="container">
@@ -253,6 +265,7 @@
     </div>
 
 
+    <!-- inserisco lo script js per far sì che il html legga anche il codice javascript -->
     <script src="index.js"></script>
   </body>
 </html>
